@@ -120,7 +120,7 @@ class KMedoids(BaseEstimator, ClusterMixin, TransformerMixin):
     >>> kmedoids.cluster_centers_
     array([[1., 2.],
            [4., 2.]])
-    >>> kmedoids.inertia_
+    >>> float(kmedoids.inertia_)
     8.0
 
     See scikit-learn-extra/examples/plot_kmedoids_digits.py for examples
@@ -594,7 +594,7 @@ class CLARA(BaseEstimator, ClusterMixin, TransformerMixin):
     >>> clara = CLARA(n_clusters=2, random_state=0).fit(X)
     >>> clara.predict([[0,0], [4,4]])
     array([0, 1])
-    >>> clara.inertia_
+    >>> float(clara.inertia_)
     122.44919397611667
 
     References
