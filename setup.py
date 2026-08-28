@@ -26,7 +26,7 @@ INSTALL_REQUIRES = [
     "numpy>=1.22.4",
     # First scipy and scikit-learn releases with numpy 2 support.
     "scipy>=1.13.1",
-    "scikit-learn>=1.4.2",
+    "scikit-learn>=1.4.2,<2",
     "packaging",
 ]
 CLASSIFIERS = [
