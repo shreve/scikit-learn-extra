@@ -20,6 +20,11 @@ jobs:
         NUMPY_VERSION: "*"
         SCIPY_VERSION: "*"
         SKLEARN_VERSION: "*"
+      Python312:
+        python.version: '3.12'
+        NUMPY_VERSION: "*"
+        SCIPY_VERSION: "*"
+        SKLEARN_VERSION: "*"
 
   variables:
     OMP_NUM_THREADS: '2'
@@ -76,6 +81,11 @@ jobs:
         NUMPY_VERSION: "*"
         SCIPY_VERSION: "*"
         SKLEARN_VERSION: "*"
+      Python312:
+        python.version: '3.12'
+        NUMPY_VERSION: "*"
+        SCIPY_VERSION: "*"
+        SKLEARN_VERSION: "*"
   variables:
     OMP_NUM_THREADS: '2'
 
@@ -126,6 +136,11 @@ jobs:
         SKLEARN_VERSION: "1.4.2"
       Python311:
         python.version: '3.11'
+        NUMPY_VERSION: "2.0.2"
+        SCIPY_VERSION: "1.13.1"
+        SKLEARN_VERSION: "1.4.2"
+      Python312:
+        python.version: '3.12'
         NUMPY_VERSION: "2.0.2"
         SCIPY_VERSION: "1.13.1"
         SKLEARN_VERSION: "1.4.2"
